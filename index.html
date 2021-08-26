@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width" , initial-scale="1.0">
     <title>My CMP v2 Testpage</title>    
     
+    <link rel="preconnect" href="//privacy-proxy.usercentrics.eu">
+    <link rel="preload" href="//privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js" as="script">
     <script id="usercentrics-cmp" data-settings-id="9Qpm8I_Hy" src="https://app.usercentrics.eu/browser-ui/latest/bundle.js" async></script>
+    <script type="application/javascript" src="https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js"></script>
+    <script>
+       uc.blockOnly(['BJz7qNsdj-7']);
+    </script>    
     
     <!-- Google Analytics -->
     <script type="text/plain" data-usercentrics="Google Analytics">
